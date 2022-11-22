@@ -6,7 +6,7 @@ var monoSpace = '```'
 
 exports.listmenu = (sender,prefix,ad,namenya,premnya,usernya,romnya,tanggal,jam,no) => {
 return`
-━━━❲ 𝘼𝙉𝙂𝙂𝘼-𝘽𝙊𝙏 ━━━
+━━━❲ 𝗔𝗿𝗮𝗰𝗲𝗹𝗮-𝗕𝗼𝘁 ━━━
 
  𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢
  ID : @${sender.split('@')[0]}
@@ -726,11 +726,11 @@ return`──「 *MENU DONATE* 」──
 Hi *${cekName}* ${ucapanWaktu} 👋🏻
 
 *Payment pulsa*
-Number: 081251549899
+Number: 085656259707
 A/N: __
 
 *Payment Dana*
-Number: 081251549899
+Number: 082115802679
 A/N: -_-
 
 ${monoSpace}Terimakasih untuk kamu yang sudah donasi untuk perkembangan bot ini ^_^${monoSpace}
@@ -742,17 +742,15 @@ exports.infoOwner = () =>{
 return`──「 *INFO OWNER* 」──
 
  *Data Profil*
- • *Nama:* Dani
+ • *Nama:* Muhammad Fisal 
  • *Umur:* 16 tahun
- • *Hoby:* Turu/tiktok
- • *Askot:* Palembang
+ • *Hoby:* Kerja
+ • *Askot:* Palu-Sulteng
  • *Konten:* Creator
 
 _iam developer bot whatsapp._
 
  *Sosial Media*
- • *Whatsapp:* 081348106274
- • *Youtube:* DaniMaker
- • *Github:* -
- `
+ • *WhatsApp* 082115802679
+ 
 }
