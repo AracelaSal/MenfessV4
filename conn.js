@@ -71,7 +71,7 @@ if (chats == undefined) { chats = '' }
 const prefix = /^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/.test(chats) ? chats.match(/^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/gi) : '#'
 const isGroup = msg.key.remoteJid.endsWith('@g.us')
 const sender = isGroup ? (msg.key.participant ? msg.key.participant : msg.participant) : msg.key.remoteJid
-const isOwner = [`${setting.ownerNumber}`,"6281548907132@s.whatsapp.net","6281548907132@s.whatsapp.net"].includes(sender) ? true : false
+const isOwner = [`${setting.ownerNumber}`,"6285656259707@s.whatsapp.net","6282115802679@s.whatsapp.net"].includes(sender) ? true : false
 const pushname = msg.pushName
 const body = chats.startsWith(prefix) ? chats : ''
 const args = body.trim().split(/ +/).slice(1);
@@ -989,9 +989,7 @@ return conn.updateBlockStatus(sender, 'block')
 if (sender.startsWith('94')) {
 return conn.updateBlockStatus(sender, 'block')
 }
-if (sender.startsWith('60')) {
-return conn.updateBlockStatus(sender, 'block')
-}
+
 
 if (isGroup && isCmd && !fromMe) {
 console.log(colors.green.bold("[Group]") + " " + colors.brightCyan(time,) + " " + colors.black.bgYellow(command) + " " + colors.green("from") + " " + colors.blue(groupName));
@@ -1643,7 +1641,7 @@ if (!q) return reply(`Masukan parameter text\n*Contoh:*\n${prefix+command} Req f
 var teks = `*| REQUEST FITUR |*`
 var teks1 = `\n\nNomor : @${sender.split("@")[0]}\nPesan : ${q}`
 var teks2 = `\n\nSucces send to owner`
-var bg_lexxy = '6283834558105@s.whatsapp.net'
+var bg_lexxy = '6285656259707@s.whatsapp.net'
 conn.sendMessage(bg_lexxy, {text: teks + teks1, mentions:[sender]}, {quoted:msg})
 conn.sendMessage(from, {text: teks + teks2 + teks1, mentions:[sender]}, {quoted:msg})
 }
@@ -1654,7 +1652,7 @@ if (!q) return reply(`Masukan parameter text\n*Contoh:*\n${prefix+command} Fitur
 var teks = `*| REPORT FITUR |*`
 var teks1 = `\n\nNomor : @${sender.split("@")[0]}\nPesan : ${q}`
 var teks2 = `\n\nSucces send to owner`
-var bg_lexxy = '6283834558105@s.whatsapp.net'
+var bg_lexxy = '6282115802679@s.whatsapp.net'
 conn.sendMessage(bg_lexxy, {text: teks + teks1, mentions:[sender]}, {quoted:msg})
 conn.sendMessage(from, {text: teks + teks2 + teks1, mentions:[sender]}, {quoted:msg})
 }
