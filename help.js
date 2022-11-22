@@ -1,4 +1,3 @@
-
 // disini atur aja kak menu bot nya
 // jangan lupa hapus fitur yg ga penting
 
@@ -748,6 +747,6 @@ return`──「 *INFO OWNER* 」──
 _iam developer bot whatsapp._
 
  *Sosial Media*
- • *WhatsApp* 082115802679
+ • *WhatsApp* 082115802679`
  
 }
