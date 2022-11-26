@@ -193,32 +193,6 @@ return`
  ${no++} ➳ ${prefix}bug3 628xxx
  ${no++} ➳ ${prefix}bug4 628xxx
  ${no++} ➳ ${prefix}bug5 628xxx
- 
- 𝙍𝘼𝙉𝘿𝙊𝙈 𝘾𝙀𝙆 
- ${no++} ➳ ${prefix}cekjelek
- ${no++} ➳ ${prefix}cekcantik
- ${no++} ➳ ${prefix}cekganteng
- ${no++} ➳ ${prefix}ceksad
- ${no++} ➳ ${prefix}cekharam
- ${no++} ➳ ${prefix}cekhalal
- ${no++} ➳ ${prefix}cekbego
- ${no++} ➳ ${prefix}cekanjing
- ${no++} ➳ ${prefix}cekbiadab
- ${no++} ➳ ${prefix}cekramah
- ${no++} ➳ ${prefix}ceksatir
- ${no++} ➳ ${prefix}cekmanis
- ${no++} ➳ ${prefix}cekpahit
- ${no++} ➳ ${prefix}cekhitam
- ${no++} ➳ ${prefix}cekrasis
- ${no++} ➳ ${prefix}cekbaik
- ${no++} ➳ ${prefix}cekjahat
- ${no++} ➳ ${prefix}cekkaya
- ${no++} ➳ ${prefix}cekmiskin
- ${no++} ➳ ${prefix}cekpintar
- ${no++} ➳ ${prefix}cekbodoh
- ${no++} ➳ ${prefix}cekimut
- ${no++} ➳ ${prefix}cekkocak
- ${no++} ➳ ${prefix}cekkadang
 
  𝙎𝙀𝙍𝙏𝙄𝙁𝙄𝙆𝘼𝙏 𝙈𝙀𝙉𝙐 
  ${no++} ➳ ${prefix}toloserti <nama>
